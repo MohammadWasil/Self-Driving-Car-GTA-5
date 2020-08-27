@@ -8,7 +8,7 @@ Created on Thu Aug 27 20:22:50 2020
 from bs4 import BeautifulSoup
 import requests
 
-# use the function, or simly use this dictionary.
+# use the function, or simply use this dictionary.
 direct_key_dictionary = {'Macro': 'Value',
  'DIK_ESCAPE': 0x01,
  'DIK_1': 0x02,
