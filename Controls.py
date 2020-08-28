@@ -3,7 +3,8 @@
 Created on Tue Aug 25 20:05:43 2020
 
 @author: wasil
-"""
+"""  
+
 # Code: https://stackoverflow.com/questions/14489013/simulate-python-keypresses-for-controlling-a-game
 
 import ctypes
@@ -75,9 +76,16 @@ SPACE = Download_Direct_Keys.direct_key_dictionary[space]
 
 
 # directx scan codes http://www.gamespp.com/directx/directInputKeyboardScanCodes.html
-while (True):
+#while (True):
 
-    PressKey(W)
-    time.sleep(2)
-    ReleaseKey(W)
-    time.sleep(2)
+    #PressKey(W)
+    #time.sleep(2)
+    #ReleaseKey(W)
+    #time.sleep(2)
+    
+
+
+
+
+
+

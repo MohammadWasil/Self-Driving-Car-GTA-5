@@ -12,7 +12,7 @@ STEERING_FACTOR = 0.05
 MAXIMUM_ANGLE = 45
 
 # W, A, S, D
-keys = [0, 0, 0, 0]
+keys = [0, 0, 0, 0, 0]
 
 # code: https://stackoverflow.com/questions/24072790/detect-key-press-in-python
 while True:
