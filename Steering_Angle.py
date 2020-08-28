@@ -34,7 +34,7 @@ while True:
                 
             print(Steering_angle)
             
-        # or else steer angle goes to zero.
+        # or else steer angle goes to zero, i.e. going straight.
         else:
             Steering_angle = 0
             #print(Steering_angle)
