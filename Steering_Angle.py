@@ -26,7 +26,7 @@ while True:
         # If we steer left, angle towrds the right increases.
         elif keyboard.is_pressed('A'):
             
-            # To limit the angle between 0 and 90.
+            # To limit the angle between 0 and -90.
             if Steering_angle <= 0 and Steering_angle > -90:
                 Steering_angle -= 1 * STEERING_FACTOR
             elif Steering_angle < -90:
@@ -43,7 +43,4 @@ while True:
     
     if keyboard.is_pressed('Q'):
         break
-    
-    
-    
         
