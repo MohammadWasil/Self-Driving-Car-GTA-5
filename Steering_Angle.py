@@ -23,7 +23,7 @@ while True:
                 
             print(Steering_angle)
         
-        # If we steer left, angle towrds the right increases.
+        # If we steer left, angle towrds the left increases.
         elif keyboard.is_pressed('A'):
             
             # To limit the angle between 0 and -90.
