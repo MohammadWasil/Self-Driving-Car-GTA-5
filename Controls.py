@@ -4,18 +4,6 @@ Created on Tue Aug 25 20:05:43 2020
 
 @author: wasil
 """
-
-"""
-To control the car in the GTA 5 game.
-
-"""
-"""for i in range(30):
-    pyautogui.press(["W", "D" ])
-    pyautogui.press(["W", "A" ])
-    pyautogui.press(["S", "D" ])
-    pyautogui.press(["A", "S" ])
-"""    
-
 # Code: https://stackoverflow.com/questions/14489013/simulate-python-keypresses-for-controlling-a-game
 
 import ctypes
@@ -93,10 +81,3 @@ while (True):
     time.sleep(2)
     ReleaseKey(W)
     time.sleep(2)
-    
-
-
-
-
-
-
